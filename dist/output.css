@@ -1,6 +1,4 @@
-/* ./src/tailwind.css */
-
-/* ! tailwindcss v2.2.19 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v2.2.19 | MIT License | https://tailwindcss.com */
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
@@ -590,4 +588,14 @@ video {
 
 [hidden] {
   display: none;
+}
+
+.bg-\[\#1da1f1\] {
+  --tw-bg-opacity: 1;
+  background-color: rgba(29, 161, 241, var(--tw-bg-opacity));
+}
+
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgba(239, 68, 68, var(--tw-text-opacity));
 }
