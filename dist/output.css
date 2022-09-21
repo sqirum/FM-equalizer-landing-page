@@ -595,7 +595,22 @@ video {
   background-color: rgba(29, 161, 241, var(--tw-bg-opacity));
 }
 
+.bg-\[\#FA7453\] {
+  --tw-bg-opacity: 1;
+  background-color: rgba(250, 116, 83, var(--tw-bg-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+}
+
 .text-red-500 {
   --tw-text-opacity: 1;
   color: rgba(239, 68, 68, var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
