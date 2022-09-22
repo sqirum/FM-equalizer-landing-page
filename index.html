@@ -9,33 +9,38 @@
   <title>Frontend Mentor | Equalizer landing page</title>
 </head>
 <body>
-  <header>
-    <img src="assets/logo.svg" alt="logo">
+  <header class="container px-6 mt-10">
+    <div class="columns-12">
+      <img src="assets/logo.svg" alt="logo">
+    </div>
   </header>
-  <main>
+  <main class="container mt-16">
     
-    <h1>We make your music sound extraordinary.</h1>
-    <p>A system audio equalizer specifically designed for Android and iOS. Freely tune the way your music sounds with a professional grade parametric EQ & volume mixer. Control bass, mids, treble, gain control, reverb, and more!</p>
+    <h1 class="px-6 text-[40px] leading-[2.5rem] font-bold">We make your music sound extraordinary.</h1>
+    <p class="mt-5 px-6 leading-6">A system audio equalizer specifically designed for Android and iOS. Freely tune the way your music sounds with a professional grade parametric EQ & volume mixer. Control bass, mids, treble, gain control, reverb, and more!</p>
 
-    <div class="pricing-card bg-[#FA7453]">
-      <h2 class="text-white">Premium EQ</h2>
-      <p class="text-white">Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take your listening experience to a whole new level and access all our incredible features!</p>
-      <h3>$4 <p>/ month</p></h3>
-      <button class="bg-black text-white">
-        <img src="assets/icon-apple.svg" alt="apple icon">
+    <div class="bg-[#FA7453] px-9 py-12">
+      <h2 class="text-white font-bold text-3xl leading-10">Premium EQ</h2>
+      <p class="text-white mt-3 leading-7">Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take your listening experience to a whole new level and access all our incredible features!</p>
+      <div class="flex items-center mt-9">
+        <h3 class="text-white text-6xl font-bold leading-[3.25rem]">$4</h3>
+        <span class="text-white ml-4 text-xl font-normal leading-8">/ month</span>
+      </div>
+      <button class="bg-black text-white py-4 rounded-xl w-full mt-8">
+        <img src="assets/icon-apple.svg" alt="apple icon" class="mr-2 inline-block">
         iOS Download
       </button>
-      <button class="bg-white">
-        <img src="assets/icon-android.svg" alt="android icon">
+      <button class="bg-white py-4 rounded-xl w-full mt-4">
+        <img src="assets/icon-android.svg" alt="android icon" class="mr-2 inline-block">
         Android Download
       </button>
     </div>
   </main>
   
-  <footer>
-    <img src="assets/logo.svg" alt="logo">
-    <p>All rights reserved © Equalizer 2021 Have any problems? Contact us via social media or email us at equalizer@example.com</p>
-    <div class="social-media">
+  <footer class="container px-6 mt-16">
+    <div class="columns-12"><img src="assets/logo.svg" alt="logo"></div>
+    <p class="columns-12 mt-8">All rights reserved © Equalizer 2021 Have any problems? Contact us via social media or email us at equalizer@example.com</p>
+    <div class="social-media flex columns-12 space-x-4 mt-16 mb-20">
       <img src="assets/icon-facebook.svg" alt="facebook icon">
       <img src="assets/icon-instagram.svg" alt="instagram icon">
       <img src="assets/icon-twitter.svg" alt="twitter icon">
